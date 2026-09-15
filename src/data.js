@@ -68,7 +68,7 @@ export const escalationProgress = {
 
 export const initialPatients = [
   {
-    id: "PT-2231", days: 1, status: "scheduled", owner: "A. Morgan", lastContact: "Today, 8:40 AM", priority: "green",
+    id: "PT-2231", days: 1, status: "scheduled", owner: "Marshall Smith", lastContact: "Today, 8:40 AM", priority: "green",
     nextAction: "None. Appointment confirmed for day 4.", escalateTo: null, closed: false, overdueItems: [], unassigned: false, repeatedDefault: false,
     escalationStatus: "Not Required", escalationDestination: null, handoffStatus: "Not Yet Required",
     timeline: [
