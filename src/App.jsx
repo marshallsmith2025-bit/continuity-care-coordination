@@ -66,7 +66,7 @@ export default function App() {
   const assignOwner = (id) =>
     updatePatient(id, (p) => ({
       ...p,
-      owner: "A. Morgan",
+      owner: "Marshall Smith",
       unassigned: false,
       priority: p.priority === "gray" || p.priority === "red" ? "yellow" : p.priority,
       timeline: [...p.timeline, { label: "Owner assigned", status: "completed", time: "Just now" }],
